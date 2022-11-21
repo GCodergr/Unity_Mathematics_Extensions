@@ -5,7 +5,7 @@ using Utilities;
 namespace Tests.Utilities
 {
     public class _0_Math_Extensions_Tests
-    {
+    { 
 	    [TestCase(7, 5, 10, 7)]
         [TestCase(-5, 5, 10, 5)]
         [TestCase(5, 5, 10, 5)]
@@ -13,7 +13,7 @@ namespace Tests.Utilities
         [TestCase(10, 5, 10, 10)]
         public void _0_Clamp(int initial, int min, int max, int expected)
         {
-	        // Act
+			// Act
             var actual = initial.Clamp(min, max);
             // Assert
             Assert.AreEqual(expected, actual);
