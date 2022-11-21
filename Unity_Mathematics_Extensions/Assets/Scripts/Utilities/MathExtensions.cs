@@ -1,12 +1,12 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
+using System;
 
 namespace Utilities
 {
     public static class MathExtensions
     {
         /// <summary>
-        /// Returns a clamped value between min and max
+        /// Returns clamped value to the inclusive range of min and max.
         /// </summary>
         /// <param name="val">Current value</param>
         /// <param name="min">Minimum value</param>
